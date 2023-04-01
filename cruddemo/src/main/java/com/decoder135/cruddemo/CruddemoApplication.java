@@ -40,6 +40,7 @@ public class CruddemoApplication {
 		System.out.println("Saved student. Generated id: " + tempStudent.getId());
 
 		// retrieve student based on the id: primary key
+		System.out.println("Retrieving student with id: " + tempStudent.getId());
 
 		// display student
 
