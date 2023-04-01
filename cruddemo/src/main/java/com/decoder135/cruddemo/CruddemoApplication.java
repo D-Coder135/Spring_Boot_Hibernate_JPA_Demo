@@ -41,6 +41,7 @@ public class CruddemoApplication {
 
 		// retrieve student based on the id: primary key
 		System.out.println("Retrieving student with id: " + tempStudent.getId());
+		Student myStudent = studentDAO.findById(tempStudent.getId());
 
 		// display student
 
