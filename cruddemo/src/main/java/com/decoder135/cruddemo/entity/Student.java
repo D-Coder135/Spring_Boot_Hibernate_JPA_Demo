@@ -24,4 +24,6 @@ public class Student {
 //    define constructors
 
 //    define getter/setter
+
+//    define toString() method
 }
