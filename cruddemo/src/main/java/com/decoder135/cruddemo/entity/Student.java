@@ -8,6 +8,8 @@ import jakarta.persistence.Table;
 public class Student {
 //    define fields
 
+    private int id;
+
 //    define constructors
 
 //    define getter/setter
