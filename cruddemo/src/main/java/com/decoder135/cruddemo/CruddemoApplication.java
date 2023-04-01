@@ -44,6 +44,7 @@ public class CruddemoApplication {
 		Student myStudent = studentDAO.findById(tempStudent.getId());
 
 		// display student
+		System.out.println("Fount the student: " + myStudent);
 
 	}
 
