@@ -25,6 +25,10 @@ public class CruddemoApplication {
 
 	private void createMultipleStudents(StudentDAO studentDAO) {
 
+		// create multiple students
+
+		// save the student objects
+
 	}
 
 	private void createStudent(StudentDAO studentDAO) {
