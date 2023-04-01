@@ -27,6 +27,11 @@ public class CruddemoApplication {
 
 		// create multiple students
 
+		System.out.println("Creating new student object...");
+		Student tempStudent1 = new Student("Dev", "Shukla", "dev@email.com");
+		Student tempStudent2 = new Student("Devu", "Shukla", "devu@email.com");
+		Student tempStudent3 = new Student("Omi", "Shukla", "omi@email.com");
+
 		// save the student objects
 
 	}
