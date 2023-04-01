@@ -22,6 +22,10 @@ public class CruddemoApplication {
 	}
 
 	private void createStudent(StudentDAO studentDAO) {
+		// create the student object
 
+		// save the student object
+
+		// display id of the saved student
 	}
 }
