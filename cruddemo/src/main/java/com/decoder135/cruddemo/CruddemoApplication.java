@@ -1,6 +1,7 @@
 package com.decoder135.cruddemo;
 
 import com.decoder135.cruddemo.dao.StudentDAO;
+import com.decoder135.cruddemo.entity.Student;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,6 +25,7 @@ public class CruddemoApplication {
 	private void createStudent(StudentDAO studentDAO) {
 		// create the student object
 		System.out.println("Creating new student object...");
+		Student tempStudent = new Student("Devansh", "Shukla", "devansh@email.com");
 
 
 		// save the student object
