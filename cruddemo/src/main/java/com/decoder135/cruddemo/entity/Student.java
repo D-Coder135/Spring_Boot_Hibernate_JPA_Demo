@@ -23,6 +23,10 @@ public class Student {
 
 //    define constructors
 
+    public Student() {
+
+    }
+
 //    define getter/setter
 
 //    define toString() method
