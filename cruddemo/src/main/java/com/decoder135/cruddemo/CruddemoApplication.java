@@ -29,6 +29,8 @@ public class CruddemoApplication {
 	private void readStudent(StudentDAO studentDAO) {
 
 		// create a student object
+		System.out.println("Creating new student object...");
+		Student tempStudent = new Student("Daffy", "Duck", "daffy@email.com");
 
 		// save the student
 
