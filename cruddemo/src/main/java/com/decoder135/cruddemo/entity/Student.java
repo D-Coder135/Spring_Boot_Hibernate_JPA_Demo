@@ -12,6 +12,8 @@ public class Student {
     @Column(name = "id")
     private int id;
 
+    private String firstName;
+
 //    define constructors
 
 //    define getter/setter
