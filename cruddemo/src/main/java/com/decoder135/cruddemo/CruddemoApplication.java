@@ -16,7 +16,7 @@ public class CruddemoApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
 		return runner -> {
-			System.out.println("Command Line Application Using SpringBoot.");
+//			System.out.println("Command Line Application Using SpringBoot.");
 		};
 	}
 }
