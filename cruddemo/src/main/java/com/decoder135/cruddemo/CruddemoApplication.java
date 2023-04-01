@@ -34,6 +34,9 @@ public class CruddemoApplication {
 
 		// save the student objects
 		System.out.println("Saving the students....");
+		studentDAO.save(tempStudent1);
+		studentDAO.save(tempStudent2);
+		studentDAO.save(tempStudent3);
 
 
 	}
