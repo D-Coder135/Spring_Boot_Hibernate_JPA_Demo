@@ -23,6 +23,8 @@ public class CruddemoApplication {
 
 	private void createStudent(StudentDAO studentDAO) {
 		// create the student object
+		System.out.println("Creating new student object...");
+
 
 		// save the student object
 
