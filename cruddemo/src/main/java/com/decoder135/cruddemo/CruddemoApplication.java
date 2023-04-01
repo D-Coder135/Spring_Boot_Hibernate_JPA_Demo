@@ -1,5 +1,6 @@
 package com.decoder135.cruddemo;
 
+import com.decoder135.cruddemo.dao.StudentDAO;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,7 +14,7 @@ public class CruddemoApplication {
 	}
 
 	@Bean
-	public CommandLineRunner commandLineRunner(String[] args) {
+	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
 		return runner -> {
 			System.out.println("Command Line Application Using SpringBoot.");
 		};
