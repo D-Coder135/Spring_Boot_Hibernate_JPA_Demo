@@ -19,7 +19,8 @@ public class CruddemoApplication {
 		return runner -> {
 //			System.out.println("Command Line Application Using SpringBoot.");
 //			createStudent(studentDAO);
-			createMultipleStudents(studentDAO);
+
+//			createMultipleStudents(studentDAO);
 		};
 	}
 
