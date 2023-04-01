@@ -26,6 +26,10 @@ public class CruddemoApplication {
 		};
 	}
 
+	private void readStudent(StudentDAO studentDAO) {
+
+	}
+
 	private void createMultipleStudents(StudentDAO studentDAO) {
 
 		// create multiple students
