@@ -33,6 +33,7 @@ public class CruddemoApplication {
 		Student tempStudent3 = new Student("Omi", "Shukla", "omi@email.com");
 
 		// save the student objects
+		System.out.println("Saving the students....");
 
 
 	}
