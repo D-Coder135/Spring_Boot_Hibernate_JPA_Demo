@@ -27,7 +27,13 @@ public class Student {
 
     }
 
-//    define getter/setter
+    public Student(String firstName, String lastName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+    //    define getter/setter
 
 //    define toString() method
 }
