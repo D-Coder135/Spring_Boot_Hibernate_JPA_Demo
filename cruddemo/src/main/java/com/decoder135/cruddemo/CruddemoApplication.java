@@ -20,4 +20,8 @@ public class CruddemoApplication {
 			createStudent(studentDAO);
 		};
 	}
+
+	private void createStudent(StudentDAO studentDAO) {
+
+	}
 }
