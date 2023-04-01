@@ -12,6 +12,11 @@ public class StudentDAOImpl implements StudentDAO{
 
     // inject entity manager using constructor injection
 
+    public StudentDAOImpl(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
+
+
     //implement save method
 
     @Override
