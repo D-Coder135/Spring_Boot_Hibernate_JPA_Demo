@@ -23,6 +23,10 @@ public class CruddemoApplication {
 		};
 	}
 
+	private void createMultipleStudents(StudentDAO studentDAO) {
+
+	}
+
 	private void createStudent(StudentDAO studentDAO) {
 		// create the student object
 		System.out.println("Creating new student object...");
