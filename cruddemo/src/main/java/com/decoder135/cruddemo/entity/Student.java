@@ -6,4 +6,9 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "student")
 public class Student {
+//    define fields
+
+//    define constructors
+
+//    define getter/setter
 }
