@@ -12,7 +12,9 @@ public class Student {
     @Column(name = "id")
     private int id;
 
+    @Column(name = "first_name")
     private String firstName;
+
 
 //    define constructors
 
