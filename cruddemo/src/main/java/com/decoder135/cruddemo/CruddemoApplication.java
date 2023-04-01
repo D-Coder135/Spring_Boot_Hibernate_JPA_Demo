@@ -33,6 +33,8 @@ public class CruddemoApplication {
 		Student tempStudent = new Student("Daffy", "Duck", "daffy@email.com");
 
 		// save the student
+		System.out.println("Saving the student...");
+		studentDAO.save(tempStudent);
 
 		// display id of the saved student
 
