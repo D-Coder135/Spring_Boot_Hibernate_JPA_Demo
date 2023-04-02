@@ -22,7 +22,7 @@ public class CruddemoApplication {
 
 //			createMultipleStudents(studentDAO);
 
-			readStudent(studentDAO);
+//			readStudent(studentDAO);
 		};
 	}
 
