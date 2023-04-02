@@ -2,6 +2,7 @@ package com.decoder135.cruddemo.dao;
 
 import com.decoder135.cruddemo.entity.Student;
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,6 +39,8 @@ public class StudentDAOImpl implements StudentDAO{
     public List<Student> findAll() {
 
         // create query
+
+        TypedQuery<Student> theQuery = entityManager.createQuery("FROM Student", Student.class);
 
         // return query results
 
