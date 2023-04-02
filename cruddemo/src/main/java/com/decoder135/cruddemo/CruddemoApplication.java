@@ -24,11 +24,15 @@ public class CruddemoApplication {
 
 //			readStudent(studentDAO);
 
-            queryForStudents(StudentDAO);
+            queryForStudents(studentDAO);
 		};
 	}
 
-	private void readStudent(StudentDAO studentDAO) {
+    private void queryForStudents(StudentDAO studentDAO) {
+
+    }
+
+    private void readStudent(StudentDAO studentDAO) {
 
 		// create a student object
 		System.out.println("Creating new student object...");
