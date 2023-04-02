@@ -23,6 +23,8 @@ public class CruddemoApplication {
 //			createMultipleStudents(studentDAO);
 
 //			readStudent(studentDAO);
+
+            queryForStudents(StudentDAO);
 		};
 	}
 
