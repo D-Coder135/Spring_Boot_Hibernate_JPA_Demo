@@ -30,6 +30,11 @@ public class CruddemoApplication {
 
     private void queryForStudents(StudentDAO studentDAO) {
 
+        // get a list of students
+
+        // display list of students
+
+
     }
 
     private void readStudent(StudentDAO studentDAO) {
