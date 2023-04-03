@@ -53,6 +53,7 @@ public class StudentDAOImpl implements StudentDAO{
         TypedQuery<Student> theQuery = entityManager.createQuery("FROM Student WHERE lastName=:theData", Student.class);
 
         // set the query parameters
+        theQuery.setParameter("theData", theLastName);
 
         // return query results
 
