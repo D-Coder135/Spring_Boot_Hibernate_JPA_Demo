@@ -58,4 +58,9 @@ public class StudentDAOImpl implements StudentDAO{
         // return query results
         return theQuery.getResultList();
     }
+
+    @Override
+    public void update(Student theStudent) {
+        
+    }
 }
