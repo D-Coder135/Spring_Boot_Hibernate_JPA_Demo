@@ -36,7 +36,11 @@ public class CruddemoApplication {
 
         // get a list of students
         List<Student> theStudents = studentDAO.findByLastName("Shukla");
+
         // display list of students
+        for (Student tempStudent : theStudents) {
+
+        }
 
 
     }
