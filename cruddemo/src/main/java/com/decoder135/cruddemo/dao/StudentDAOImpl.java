@@ -56,7 +56,6 @@ public class StudentDAOImpl implements StudentDAO{
         theQuery.setParameter("theData", theLastName);
 
         // return query results
-
-        return null;
+        return theQuery.getResultList();
     }
 }
