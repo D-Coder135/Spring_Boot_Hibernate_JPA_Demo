@@ -30,7 +30,7 @@ public class CruddemoApplication {
 
 //            queryForStudentsByLastName(studentDAO);
 
-            updateStudent(studentDAO);
+//            updateStudent(studentDAO);
         };
     }
 
