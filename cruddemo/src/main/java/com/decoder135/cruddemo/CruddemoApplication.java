@@ -36,6 +36,10 @@ public class CruddemoApplication {
         };
     }
 
+    private void deleteStudent(StudentDAO studentDAO) {
+
+    }
+
     private void updateStudent(StudentDAO studentDAO) {
         // retrieve student based on the id: primary key
         int studentId = 1;
