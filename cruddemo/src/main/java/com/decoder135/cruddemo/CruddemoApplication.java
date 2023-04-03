@@ -37,7 +37,7 @@ public class CruddemoApplication {
     }
 
     private void deleteStudent(StudentDAO studentDAO) {
-
+        int studentId = 3;
     }
 
     private void updateStudent(StudentDAO studentDAO) {
