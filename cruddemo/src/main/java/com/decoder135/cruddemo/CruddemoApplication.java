@@ -35,7 +35,7 @@ public class CruddemoApplication {
     private void queryForStudentsByLastName(StudentDAO studentDAO) {
 
         // get a list of students
-
+        List<Student> theStudents = studentDAO.findByLastName("Shukla");
         // display list of students
 
 
