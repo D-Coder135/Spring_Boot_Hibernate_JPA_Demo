@@ -35,7 +35,11 @@ public class CruddemoApplication {
     }
 
     private void updateStudent(StudentDAO studentDAO) {
+        // retrieve student based on the id: primary key
 
+        // change first name to DevD
+
+        // display updated student details
     }
 
     private void queryForStudentsByLastName(StudentDAO studentDAO) {
