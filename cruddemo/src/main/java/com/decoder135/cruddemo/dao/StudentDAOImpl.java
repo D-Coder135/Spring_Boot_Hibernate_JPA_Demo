@@ -45,4 +45,9 @@ public class StudentDAOImpl implements StudentDAO{
         // return query results
         return theQuery.getResultList();
     }
+
+    @Override
+    public List<Student> findByLastName(String theLastName) {
+        return null;
+    }
 }
