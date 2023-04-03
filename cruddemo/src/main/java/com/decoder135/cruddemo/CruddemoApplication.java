@@ -36,7 +36,7 @@ public class CruddemoApplication {
 
     private void updateStudent(StudentDAO studentDAO) {
         // retrieve student based on the id: primary key
-        int StudentId = 1;
+        int studentId = 1;
         System.out.println("Getting students with id: " + studentId);
 
         Student myStudent = studentDAO.findById(studentId);
