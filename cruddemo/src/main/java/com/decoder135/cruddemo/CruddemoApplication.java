@@ -48,6 +48,7 @@ public class CruddemoApplication {
         studentDAO.update(myStudent);
 
         // display updated student details
+        System.out.println("Updated student: " + myStudent);
     }
 
     private void queryForStudentsByLastName(StudentDAO studentDAO) {
