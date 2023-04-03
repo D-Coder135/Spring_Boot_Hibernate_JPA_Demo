@@ -22,7 +22,7 @@ public class CruddemoApplication {
 //			System.out.println("Command Line Application Using SpringBoot.");
 //			createStudent(studentDAO);
 
-//			createMultipleStudents(studentDAO);
+			createMultipleStudents(studentDAO);
 
 //			readStudent(studentDAO);
 
