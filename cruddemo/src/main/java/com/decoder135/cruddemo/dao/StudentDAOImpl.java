@@ -74,4 +74,9 @@ public class StudentDAOImpl implements StudentDAO{
         // delete the student
         entityManager.remove(theStudent);
     }
+
+    @Override
+    public int deleteAll() {
+        return 0;
+    }
 }
