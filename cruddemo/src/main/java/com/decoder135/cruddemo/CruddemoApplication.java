@@ -36,6 +36,8 @@ public class CruddemoApplication {
 
     private void updateStudent(StudentDAO studentDAO) {
         // retrieve student based on the id: primary key
+        int StudentId = 1;
+        System.out.println("Getting students with id: " + studentId);
 
         // change first name to DevD
 
