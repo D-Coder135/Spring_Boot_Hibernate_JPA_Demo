@@ -41,6 +41,8 @@ public class CruddemoApplication {
 
         Student myStudent = studentDAO.findById(studentId);
 
+        System.out.println("Updating student....");
+
         // change first name to DevD
 
         // display updated student details
