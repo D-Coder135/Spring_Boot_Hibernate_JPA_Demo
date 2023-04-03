@@ -34,6 +34,10 @@ public class CruddemoApplication {
         };
     }
 
+    private void updateStudent(StudentDAO studentDAO) {
+
+    }
+
     private void queryForStudentsByLastName(StudentDAO studentDAO) {
 
         // get a list of students
