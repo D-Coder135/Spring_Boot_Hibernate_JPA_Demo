@@ -48,6 +48,13 @@ public class StudentDAOImpl implements StudentDAO{
 
     @Override
     public List<Student> findByLastName(String theLastName) {
+
+        // create query
+
+        // set the query parameters
+
+        // return query results
+
         return null;
     }
 }
